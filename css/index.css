@@ -1180,8 +1180,8 @@ footer img{
 .footergrid{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
+	align-items: left;
+	justify-content: space-evenly;
     background-color: #1B4821;
 	color: #fff;
 	padding: 5px 0;
@@ -1227,7 +1227,7 @@ footer hr{
 	}
 
 	footer .toleft{
-	    margin-left: -200px;
+	    margin-left: 5%;
 	}
 
 	footer a{
