@@ -1152,7 +1152,7 @@ a.tele{
   }
 
   .resources iframe{
-  	width:400px;
+  	width:350px;
   }
 
   .resources img{
@@ -1226,8 +1226,8 @@ footer hr{
 		flex-direction: column;
 	}
 
-	footer .lileft{
-	    margin-left: 50px;
+	footer .toleft{
+	    margin-left: -200px;
 	}
 
 	footer a{
@@ -1242,20 +1242,16 @@ footer hr{
 	footer div{
 		text-align: left;
 		margin-bottom: 10px;
-		margin-left: 10%;
-	}
-
-	footer iframe{
-		width:300px;
+	    margin: 5%;
 	}
 
 	.footergrid li{
 		text-align: left;
 	}
 
-
-
 } 
+
+
 
 .yellow{
 	color: #FEDE5E;
