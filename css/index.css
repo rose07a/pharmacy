@@ -1174,7 +1174,7 @@ footer{
 }
 
 footer img{
-	width: 200px;
+	width: 300px;
 }
 
 .footergrid{
@@ -1224,9 +1224,6 @@ footer hr{
 
 	.footergrid {
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
 	}
 
 	footer .lileft{
