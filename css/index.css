@@ -5,7 +5,7 @@
 }
 
 html {
-	font: normal 16px sans-serif;
+	font: normal 16px "Quicksand", sans-serif;
 }
 
 hr{
@@ -31,17 +31,13 @@ a:hover {
 }
 
 h1{
-	font-size: 32px;
-	margin: 30px;
+	font-size: 30px;
+	margin-bottom: 20px;
 	text-transform: capitalize;
 	word-break: break-all;
 }
 
 .h1{
-	font-size: 32px;
-	margin: 30px;
-	text-transform: capitalize;
-	word-break: break-all;
 	color:#406661;
 }
 
@@ -62,10 +58,6 @@ h3{
 	font-size: 20px;
 	margin: 10px;
 	line-height: 2;
-}
-
-hr{
-	color:#5CB878;
 }
 
 p{
@@ -116,39 +108,10 @@ li{
 	margin-right: 50px;
 }
 
-.butto{
-	width:300px;
-	height:40px;
-	border-radius: 5px;
-	text-transform: uppercase;
-	font-size: 18px;
-	font-weight: bold;
-	text-align: center;
-	align-items:center;
-	background-color: #FF3855;
-	opacity: 1;
-	padding: 10px 30px;
-	margin:5px;
-}
-
 .button:hover{
   opacity:0.9;
 }
 
-a.contentbutton{
-	width:300px;
-	height:40px;
-	border-radius: 5px;
-	text-transform: uppercase;
-	font-size: 18px;
-	font-weight: bold;
-	text-align: center;
-	align-items:center;
-	background-color: #FF3855;
-	opacity: 1;
-	padding: 10px 30px;
-	margin:10px;
-}
 
 section{
 	width:100%;
@@ -172,7 +135,7 @@ section{
 }
 
 .first img{
-	width:250px;
+	width:100px;
 }
 
 .first .button{
@@ -193,14 +156,14 @@ section{
 
 @media screen and (max-width: 800px) {
   .first{
-  	height:280px;
+  	height:300px;
   	flex-direction: column;
   	justify-content: center;
   	text-align: center;
   }
 
   .first img{
-	width:250px;
+	width:100px;
 }
   .flex a{
   	flex-basis: 100%;
@@ -227,7 +190,7 @@ section {
 	padding:0;
 	background-color: #fff;
     position: fixed;
-    top: -75px;
+    top: -210px;
     width: 100%;
     display: block;
     transition: top 0.3s;
@@ -543,12 +506,12 @@ header{
 }
 
 .hero2 h1 {
-	font: bold 60px "Open Sans", sans-serif;
+	font: bold 60px "Quicksand", sans-serif;
 	margin-bottom: 15px;
 }
 
 .hero2 h3 {
-	font: normal 28px "Open Sans", sans-serif;
+	font: normal 28px "Quicksand", sans-serif;
 	margin-bottom: 40px;
 }
 
@@ -565,7 +528,7 @@ header{
 	width: 600px;
 	animation: 1s slidefade 1s forwards;
 	background: rgba(182, 225, 252, 0.5);
-        color: #000;
+    color: #000;
 	z-index: 2;
 }
 
@@ -625,12 +588,12 @@ header{
 }
 
 .hero h1 {
-	font: bold 60px "Open Sans", sans-serif;
+	font: bold 60px "Quicksand", sans-serif;
 	margin-bottom: 15px;
 }
 
 .hero h3 {
-	font: normal 28px "Open Sans", sans-serif;
+	font: normal 28px "Quicksand", sans-serif;
 	margin-bottom: 40px;
 }
 
@@ -850,7 +813,7 @@ header{
 
 .first2{
   position:absolute;
-  top:35%;
+  top:20%;
   left:15%;
   width:70%;
   height: 150px;         
@@ -882,62 +845,19 @@ header{
   }
 }
 
-/*contact***********************************************************/
-
-.contact{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 40px auto;
-}
-
-.contact a{
-	color:black;
-}
-
-.contact .map{
-	flex-basis: 48%;
-}
-
-.contact .location{
-    flex-basis: 48%;
-}
-
-.contact .location .seg{
-	margin: 30px;
-	padding-left:100px;
-	text-align:left;
-}
-
-@media screen and (max-width: 800px) {
-  .contact{
-  	flex-direction: column;
-  }
-  .contact .location .seg{
-	margin: 30px;
-	padding-left:0;
-	text-align: left;
-}
-
-  .contact .map{
-	flex-basis: 98%;
-}
-
-.contact .location{
-    flex-basis: 98%;
-}
-
-.map iframe{
-	width:100%;
-}
-
-}
 
 /*Patient***********************************************************/
 
 .patient{
 	width: 70%;
 	text-align: left;
+}
+
+.patient div {
+	width:100%;
+	background-color: #F0F8FF;
+	padding:10px;
+	padding-bottom:15px;
 }
 
 .patient h1{
@@ -1001,7 +921,7 @@ a.tele{
 
 @media screen and (max-width: 1100px){
 	.patient{
-	 width: 95%;
+	 width: 90%;
 	}
 
 	a.tele{
@@ -1083,9 +1003,11 @@ a.tele{
 
 .placetext .container {
   flex-basis: 32%;
+  width:100%;
   position: relative;
   text-align: center;
   color: white;
+  margin-bottom:20px;
 }
 
 .placetext .centered {
@@ -1123,25 +1045,23 @@ a.tele{
 
     .placetext img{
     	width:90%;
-    	margin:10px 0;
+    	margin:5px 0;
     }
 }
 
 /*treatments grid***********************************************************/
 
 .row {
-  width:100%;
-  margin:20px 0;
+  width:70%;
   text-align: center;
   align-items: center;
 }
 
 
 .column{
-  width:60%;
+  width:100%;
   text-align: center;
   padding: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
 .column h3{
@@ -1168,7 +1088,7 @@ a.tele{
 
 @media screen and (max-width: 800px) {
   .row{
-  	width:100%;
+  	width:90%;
   }
 
   .column{
@@ -1215,7 +1135,7 @@ a.tele{
 @media screen and (max-width: 800px) {
   .resources {
   	flex-direction: column;
-  	width: 100%;
+  	width: 90%;
   }
 
   .resources .one{
@@ -1227,7 +1147,7 @@ a.tele{
   }
 
   .resources iframe{
-  	width:100%;
+  	width:500px;
   }
 
   .resources img{
@@ -1243,10 +1163,13 @@ a.tele{
 /*footer***************************************************************/
 
 footer{
-	padding:0;
-	margin:0 auto;
-	text-align: center;
-	background-color: #0E241F;
+	padding:0 20px;
+	background-color: #1B4821;
+	padding-top:40px;
+}
+
+footer img{
+	width: 200px;
 }
 
 .footergrid{
@@ -1254,58 +1177,59 @@ footer{
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-    background-color: #0E241F;
+    background-color: #1B4821;
 	color: #fff;
 	padding: 5px 0;
 }
 
 .footergrid div{
 	flex-basis: 30%;
-	background-color: #0E241F;
+	background-color:#1B4821;
+	text-align:left;
 }
 
 footer li{
 	text-align: left;
-	padding:10px;
-	margin-left: 35px;
+	padding:10px 0;
 }
 
-footer .center li{
+footer i{
+   font-size:25px;
+   color:#fff;
+}
+
+
+footer p{
 	text-align: center;
-}
-
-
-footer i {
-   font-size:30px;
-   color:#F97F51;
-}
-
-footer p {
-	padding: 20px;
+	padding: 20px 0;
 	color: #fff;
-}
-
-footer span{
-	margin-right: 50px;
-}
-
-footer .right{
- float:right;
 }
 
 footer hr{
 	margin: 10px auto;
 	width:90%;
-	border: #fff solid 1px;
+	border: #Fff solid 2px;
 }
 
+
 @media (max-width: 800px) {
+    footer{
+    	text-align: left;
+    }
+
 	.footergrid {
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
 	}
 
-	footer li{
-		margin-left:0;
+	footer .lileft{
+	    margin-left: 50px;
+	}
+
+	footer a{
+		text-align: left;
 	}
 
 	footer p {
@@ -1314,18 +1238,66 @@ footer hr{
 	}
 
 	footer div{
-		margin-bottom: 20px;
-	}
-
-	.lileft{
-		text-align:left;
-		margin-left:30px;
+		text-align: left;
+		margin-bottom: 10px;
+		margin-left: 10%;
 	}
 
 	.footergrid li{
 		text-align: left;
-		margin-left: 0;
-	    padding:10px;
 	}
+
 } 
 
+.yellow{
+	color: #FEDE5E;
+}
+
+
+
+.info2{
+    width:50%;
+    text-align: center;
+}
+
+.each{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px auto;
+	text-align: left;
+
+}
+
+.each h2{
+    font-size:25px;
+}
+
+.each iframe{
+    width:95%;
+    height:400px;
+}
+
+.each a{
+    color:#000;
+}
+
+@media (max-width: 800px) {
+    .info2{
+        width:100%;
+    }
+
+	.each iframe{
+        width:90%;
+	}
+
+    .each div{
+        font-size:17px;
+    }
+}
+
+
+.cent{
+	text-align: center;
+}
