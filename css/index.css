@@ -1152,7 +1152,7 @@ a.tele{
   }
 
   .resources iframe{
-  	width:500px;
+  	width:400px;
   }
 
   .resources img{
@@ -1245,9 +1245,15 @@ footer hr{
 		margin-left: 10%;
 	}
 
+	footer iframe{
+		width:300px;
+	}
+
 	.footergrid li{
 		text-align: left;
 	}
+
+
 
 } 
 
