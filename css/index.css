@@ -190,7 +190,7 @@ section {
 	padding:0;
 	background-color: #fff;
     position: fixed;
-    top: -200px;
+    top: -100px;
     width: 100%;
     display: block;
     transition: top 0.3s;
