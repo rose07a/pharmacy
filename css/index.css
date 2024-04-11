@@ -11,7 +11,7 @@ html {
 hr{
 	width: 50%;
 	margin: 20px auto;
-	border: #5CB878 solid 1px;
+	border: #1B4821 solid 1px;
 }
 
 li,
@@ -38,7 +38,7 @@ h1{
 }
 
 .h1{
-	color:#406661;
+	color:#1B4821;
 }
 
 .big{
@@ -101,7 +101,7 @@ li{
 	font-weight: bold;
 	text-align: center;
 	align-items:center;
-	background-color: #FF3855;
+	background-color: #FEDE5E;
 	opacity: 1;
 	padding: 10px 30px;
 	margin:5px;
@@ -147,7 +147,7 @@ section{
 	font-weight: bold;
 	text-align: center;
 	align-items:center;
-	background-color:  #FF3855;
+	background-color:  #FEDE5E;
 	opacity: 1;
 	padding: 10px 30px;
 	margin:5px;
@@ -188,19 +188,19 @@ section {
 .verytop{
 	margin:0 auto;
 	padding:0;
-	background-color: #fff;
+	background-color: #1B4821;
     position: fixed;
     top: -100px;
     width: 100%;
     display: block;
     transition: top 0.3s;
     z-index: 13;
-    border-bottom: solid #5CB878 2px;
+    border-bottom: solid #fff 3px;
 }
 
 /* Add a black background color to the top navigation */
 .verytop .topnav2{
-  background-color: #fff;
+  background-color: #1B4821;
   overflow: hidden; 
 }
 
@@ -208,8 +208,8 @@ section {
 .verytop .topnav2 a{
   float: left;
   display: block;
-  color: #000;
-  background-color: #fff;
+  color: #fff;
+  background-color: #1B4821;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
@@ -223,7 +223,7 @@ section {
 
 /* Add an active class to highlight the current page */
 .verytop .active {
-  color: #000;
+  color: #fff;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -243,7 +243,7 @@ section {
   font-size: 16px; 
   border: none;
   outline: none;
-  color: #000;
+  color: #fff;
   padding: 12px 14px;
   background-color: inherit;
   font-family: inherit;
@@ -254,7 +254,7 @@ section {
 .verytop .dropdown-content2 {
   display: none;
   position: absolute;
-  background-color: #fff;
+  background-color: #1B4821;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
   z-index: 1;
@@ -264,7 +264,7 @@ section {
 /* Style the links inside the dropdown */
 .verytop .dropdown-content2 a {
   float: none;
-  color: #000;
+  color: #fff;
   padding: 12px 12px;
   text-decoration: none;
   display: block;
@@ -274,14 +274,14 @@ section {
 
 /* Add a dark background on topnav links and the dropdown button on hover */
 .verytop .topnav2 a:hover, .verytop .dropdown2:hover .dropbtn2 {
-  background-color: #fff;
-  color: #000;
+  background-color: #1B4821;
+  color: #fff;
 }
 
 /* Add a grey background to dropdown links on hover */
 .verytop .dropdown-content2 a:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #1B4821;
+  color: #fff;
 }
 
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
@@ -347,7 +347,7 @@ header{
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #5CB878;
+  background-color: #1B4821;
   overflow: hidden;
   
 }
@@ -371,7 +371,7 @@ header{
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #5CB878;
+  background-color: #1B4821;
   color: white;
 }
 
@@ -405,7 +405,7 @@ header{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #5CB878;
+  background-color: #1B4821;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -423,13 +423,13 @@ header{
 
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #5CB878;
+  background-color: #1B4821;
   color: white;
 }
 
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #5CB878;
+  background-color: #1B4821
   color: white;
 }
 
@@ -605,7 +605,7 @@ header{
 	opacity: 0;
 	margin-top: 130px;
 	animation: 1s slidefade 1s forwards;
-	background-color: #5CB878 0.5;
+	background-color: #1B4821 0.5;
 	z-index: 2;
 }
 
@@ -896,7 +896,7 @@ a.tele{
 	font-weight: bold;
 	text-align: center;
 	align-items:center;
-	background-color: #5CB878;
+	background-color: #1B4821;
 	color: #fff;
 	opacity: 1;
 	padding: 10px 10px;
@@ -904,18 +904,18 @@ a.tele{
 
 .download{
 	padding:15px;
-	border: solid 3px #043e62;
+	border: solid 3px #1B4821;
 }
 
 .download li{
 	font-size: 20px;
 	text-decoration-line: bottom;
-	color: #5CB878;
+	color: #1B4821;
 }
 
 .download i{
 	font-size: 30px;
-    color:#5CB878;
+    color:#1B4821;
 }
 
 
@@ -962,7 +962,7 @@ a.tele{
 }
 
 .accordion {
-  background-color: #406661;
+  background-color: #1B4821;
   color: #fff;
   cursor: pointer;
   padding: 18px;
@@ -1077,7 +1077,7 @@ a.tele{
 }
 
 .row h2{
-	color: #406661;
+	color: #1B4821;
 }
 
 .row li{
@@ -1118,7 +1118,7 @@ a.tele{
 	font-weight: bold;
 	text-align: center;
 	align-items:center;
-	background-color: #FF3855;
+	background-color: #FEDE5E;
 	opacity: 1;
 	padding: 10px 30px;
 	margin:20px;
